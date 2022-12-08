@@ -1,0 +1,25 @@
+{
+  "name": "storybook-to-netlify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:StefanyRepetcki/storybook-to-netlify.git",
+  "author": "Stefany Repetcki <stefany.c.r@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@storybook/addon-actions": "^6.5.14",
+    "@storybook/addon-essentials": "^6.5.14",
+    "@storybook/addon-interactions": "^6.5.14",
+    "@storybook/addon-links": "^6.5.14",
+    "@storybook/builder-webpack4": "^6.5.14",
+    "@storybook/html": "^6.5.14",
+    "@storybook/manager-webpack4": "^6.5.14",
+    "@storybook/testing-library": "^0.0.13",
+    "babel-loader": "^8.3.0"
+  },
+  "dependencies": {},
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
